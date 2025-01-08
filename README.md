@@ -7,12 +7,12 @@ JavaScript is a versatile and powerful scripting language primarily used for web
 
 Data Types
 This section covers the fundamental data types in JavaScript:
-Number: Represents both integers and floating-point numbers.
-String: Represents textual data.
-Boolean: Represents true or false values.
-Null: Represents the intentional absence of a value.
-Undefined: Represents a variable that has been declared but has not been assigned a value.
-Symbol (ES6): Represents a unique and immutable value.
+//Number: Represents both integers and floating-point numbers.
+//String: Represents textual data.
+//Boolean: Represents true or false values.
+//Null: Represents the intentional absence of a value.
+//Undefined: Represents a variable that has been declared but has not been assigned a value.
+//Symbol (ES6): Represents a unique and immutable value.
 
 Operators
 This section explores various JavaScript operators:
