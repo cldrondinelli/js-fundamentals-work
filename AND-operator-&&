@@ -1,0 +1,10 @@
+let hour = 18;
+let name = 'Rondinelli'
+
+if (hour >= 6 && hour <= 12){
+    alert(`Good Morning! ${name}`);
+} else if (hour >= 13 && hour <= 17){
+    alert(`Good Afternoon! ${name}`);
+} else{
+    alert(`Code Evening! ${name}`);
+}
