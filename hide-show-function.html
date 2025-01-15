@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/hide-show-function.css">
+    <title>Hide and Show</title>
+</head>
+<body>
+    <div id="square">
+
+    </div>
+    
+    <button onclick="hide()" id="btn-hide">Click</button>
+</body>
+
+<script>
+    let square = document.getElementById('square');
+    let button = document.getElementsById('btn-hide');
+
+    function hide() {
+        square.style.display = 'none';
+    }
+
+    /*OR
+
+    let square = document.getElementById('square');
+    let  button = document.getAnimations('btn-hide');
+
+    function hide() {
+        square.classList.toggle('hide');
+    }
+    */
+</script>
+</html>
