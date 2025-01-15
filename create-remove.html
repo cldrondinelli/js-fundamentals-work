@@ -20,6 +20,10 @@
         let title = document.createElement('h1');
         title.innerHTML = 'Hello, Rondinelli!'
         container.appendChild(title);
+
+        title.onclick = function remove() {
+            container.removeChild(title);
+        }
     }
 </script>
 </html>
