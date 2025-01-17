@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container {
+    color: red;
+    width: 400px;
+    height: 400px;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 10px #101010, -4px -4px 10px red;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    transition: .5s ease;
+}
+
+button {
+    color: rgb(216, 216, 216);
+    background: rgb(65, 65, 65);
+    margin: 0.5rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 5px #101010, -2px -2px 5px white;;
+    cursor: pointer;
+}
+button:active {
+    box-shadow: inset 2px 2px 5px #101010, inset -2px -2px 5px rgb(216, 216, 216);
+}
