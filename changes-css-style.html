@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/changes-css-style.css">
+    <title>Change CSS Style Element</title>
+</head>
+<body>
+    <div id="container">
+        Div
+    </div>
+
+    <button onclick="changeColor()">Change Color</button>
+    <button onclick="changePosition()">Change Position</button>
+    <button onclick="changeBackgroundColor()">Change Background</button>
+</body>
+<script>
+    //Change Color
+    let div = document.getElementById ('container');
+
+    function changeColor() {
+        div.style.color = 'greenyellow';
+        div.style.boxShadow = '4px 4px 10px #101010, -4px -4px 10px greenyellow';
+    }
+
+    //Change Position
+    function changePosition() {
+        div.style.transform = "translateX(20%)";
+    }
+
+    //Change BackgroundColor
+    function changeBackgroundColor() {
+        div.style.backgroundColor = "rgb(216, 216, 216)";
+    }
+</script>
+</html>
