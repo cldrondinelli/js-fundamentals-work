@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validate Data/Value from an Input</title>
+    <link rel="stylesheet" href="../style/validate-input-data.css">
+  </head>
+  <body>
+    <div id="login-container">
+        <h1>Log In</h1>
+      <div class="input-section">
+        <input type="email" placeholder="Username" id="username" />
+
+        <input type="password" placeholder="Password" id="password" />
+      </div>
+
+      <button class="login-btn" type="submit" onclick="validate()" value="Log-in">Log-in</button>
+    </div>
+  </body>
+  <script>
+    let userN = document.getElementById('username');
+    let passW = document.getElementById('password')
+
+    let userName = 'saknusaknu@gmail.com'
+    let passWord = 'saknusaknu'
+
+    function validate() {
+        if (userN.value == userName && passW.value == passWord) {
+            alert("Welcome to Rondinelli Tech | Life <3")
+        } else {
+            alert("Something is Incorrent")
+        }
+    }
+  </script>
+</html>
